@@ -1,0 +1,17 @@
+body {
+  font: menu;
+  animation: fadein .5s;
+}
+
+#projects li {
+  margin: 5px;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
